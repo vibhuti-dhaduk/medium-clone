@@ -81,7 +81,6 @@
   height: 900px;
   text-align: center;
   font-size: 18px;
-  /* border: 1px solid blue; */
 }
 
 .main__staff__picks {
@@ -95,7 +94,6 @@
   margin: auto;
   height: 60px;
   width: 600px;
-  /* border: 1px solid black; */
   margin-top: 20px;
   margin-right: 10px;
   float: left;
@@ -111,7 +109,6 @@
 }
 
 .header_li {
-  /* position: fixed; */
   padding: 10px;
   margin: 0px;
   padding: 0px;
@@ -120,14 +117,13 @@
 .main__blog__scoll__section {
   height: 800px;
   width: 600px;
-  /* border: 1px solid green; */
 }
 
 .scroll__section__publisher--1 {
   margin-top: 40px;
-  /* border: 1px solid red; */
   height: 202px;
   width: 600px;
+  border-bottom: 1px solid #f2f2f2;
 }
 
 .publisher__image {
@@ -228,9 +224,9 @@
 
 .scroll__section__publisher--2 {
   margin-top: 40px;
-  /* border: 1px solid red; */
   height: 202px;
   width: 600px;
+  border-bottom: 1px solid #f2f2f2;
 }
 
 .publisher__image {
@@ -331,9 +327,9 @@
 
 .scroll__section__publisher--3 {
   margin-top: 40px;
-  /* border: 1px solid red; */
   height: 202px;
   width: 600px;
+  border-bottom: 1px solid #f2f2f2;
 }
 
 .publisher__image {
@@ -434,9 +430,9 @@
 
 .scroll__section__publisher--4 {
   margin-top: 40px;
-  /* border: 1px solid red; */
   height: 202px;
   width: 600px;
+  border-bottom: 1px solid #f2f2f2;
 }
 
 .publisher__image {
@@ -531,4 +527,187 @@
   height: 100px;
   width: 150px;
 }
+
+/* ------------------staff__picks ------------------ */
+
+.main__staff__picks__head{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.picks__head__image--1{
+  display: flex;
+  margin-left: 20px;
+  height: 15px;
+  width: 15px;
+  float: left;
+}
+
+
+.picks__text--1{
+  font-size: 13px;
+  line-height: 15px;
+  display: flex;
+  padding-left: 5px;
+  float: left;
+}
+
+.picks__text--2{
+  line-height: 15px;
+  display: flex;
+  padding-left: 20px;
+  float: left;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.picks__text--3{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 20px;
+  font-size: 13px;
+  color: #878787;
+}
+.picks__head__image--2{
+  height: 20px;
+  width: 20px;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  margin-top: 90px;
+  margin-left: 20px;
+  font-size: 13px;
+  border-radius: 50px;
+}
+
+.picks__text--4{
+  height: 20px;
+  width: 20px;
+  margin-top: 95px;
+  margin-left: 40px;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.picks__text--5{
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.picks__text--6{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 13px;
+  color: #878787;
+}
+
+
+.picks__head__image--3{
+  height: 20px;
+  width: 20px;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 20px;
+  font-size: 13px;
+  border-radius: 50px;
+}
+
+.picks__text--7{
+  height: 20px;
+  width: 20px;
+  margin-top: 55px;
+  margin-left: 40px;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.picks__text--8{
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.picks__svg--1 {
+  float: inline-start;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.picks__text--9 {
+  float: inline-start;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 40px;
+  font-size: 13px;
+}
+
+.picks__text--10{
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 20px;
+  font-size: 13px;
+  color: #878787;
+  cursor: pointer;
+}
+
+.main__staff__picks__head--2{
+  margin-top: 80px;
+  margin-left: 20px;
+}
+
+.picks__heads__topics {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 10px; 
+  max-width: 250px; 
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.heads__topic {
+  background-color: #f2f2f2;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  white-space: nowrap; 
+}
+
+.picks__text--11{
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 13px;
+  color: #878787;
+  cursor: pointer;
+}
+
+.head__follow{
+  height: 70px;
+  width: 300px;
+  border: 1px solid black;
+  margin-left: 20px;
+  margin-top: 20px;
+  display: flex;
+}
+
+.head__follow__image{
+  border-radius: 50px;
+  height: 35px;
+  width: 35px;
+  margin-right: 10px;
+}
+
+
 
